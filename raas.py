@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Hardcoded global variables for IP and PORT
-IP="192.168.1.1"  # Replace with the desired IP address
-PORT=4444         # Replace with the desired port number
+IP="127.0.0.1"  # Replace with the desired IP address
+PORT=9001         # Replace with the desired port number
 
 PYTHON_SCRIPT=$(mktemp)
 
